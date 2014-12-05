@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, My2AppActivity!</string>
+    <string name="app_name">My2App</string>
+    <color name="cl_red">#FF0000</color>
+    <color name="cl_green">#00FF00</color>
+    <color name="cl_blue">#0000FF</color>
+    <string name="st_show">Erakutsi</string>
+    <string name="st_reset">Garbitu</string>
+    <string name="st_red">Gorria</string>
+    <string name="st_green">Berdea</string>
+    <string name="st_blue">Urdina</string>
+    
+</resources>
