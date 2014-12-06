@@ -39,22 +39,19 @@ public class My2AppActivity extends Activity {
 	        valor=-1.0; //If there's no number, it can't be parsed
 	    }
 		
-		/*String p = text.getText().toString(); //Gets and string and saves it
-		double valor = Double.parseDouble(p); //Convert that string in a double*/
-		
 		if (valor>0){
 	    	switch(view.getId()){
 	    	case R.id.bt_show: //If "Show" button is touched and radio button selected
 	    		if(rdRed.isChecked()){
-	    			valor=valor/1.231; //USD value
+	    			valor=1.231/valor; //USD value
 	    			result.setText(String.valueOf(valor));
 	    		}
 	    		else if (rdGreen.isChecked()){
-	    			valor=valor/0.785; //GBP value
+	    			valor=0.785/valor; //GBP value
 	    			result.setText(String.valueOf(valor));
 	    		}
 	    		else if (rdBlue.isChecked()){
-	    			valor=valor/0.01507; //RUB value
+	    			valor=0.01507/valor; //RUB value
 	    			result.setText(String.valueOf(valor));
 	    		}
 	    		else{
